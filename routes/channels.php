@@ -13,7 +13,7 @@
 
 /*Broadcast::channel('App.User.{id}', function ($user, $id) {
     return (int) $user->id === (int) $id;
-});test*/
+});test d*/
 Broadcast::channel('chat_2', function ($user) {
   return true;
 });
